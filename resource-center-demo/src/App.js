@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
+import AppBar from './AppBar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <AppBar />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -17,7 +20,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            <Button variant="contained" color="primary">
+              Learn React
+            </Button>
           </a>
         </header>
       </div>
