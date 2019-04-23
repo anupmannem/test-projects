@@ -13,7 +13,7 @@ export default class App extends React.Component {
           <p><Button className="-primary" href="#" /></p>
           <p><Button className="-danger-outline -sm" /></p>
         </div>        
-        <Button className="-primary-outline -lg -block" />
+        <Button className="-primary-outline -lg -block" disabled />
       </div>
     );
   }
