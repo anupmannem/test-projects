@@ -2,8 +2,9 @@ import React from 'react'
 
 export default class Button extends React.Component {
   render() {
+    const Tag = this.props.href ? 'a' : 'button'
     return(
-      <a {...this.props}>Discover things.</a>
+      <Tag {...this.props}>Discover things.</Tag>
     )
   }
 }

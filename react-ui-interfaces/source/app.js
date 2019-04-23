@@ -11,6 +11,7 @@ export default class App extends React.Component {
           <h1>Building React User Interfaces</h1>
           <p>with bootstrap and sass</p>
           <p><Button className="btn btn-primary" href="#" /></p>
+          <p><Button className="btn btn-danger" /></p>
         </div>        
       </div>
     );
