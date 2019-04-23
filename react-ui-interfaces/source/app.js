@@ -10,9 +10,10 @@ export default class App extends React.Component {
         <div className="container">
           <h1>Building React User Interfaces</h1>
           <p>with bootstrap and sass</p>
-          <p><Button className="btn btn-primary" href="#" /></p>
-          <p><Button className="btn btn-danger" /></p>
+          <p><Button className="-primary" href="#" /></p>
+          <p><Button className="-danger-outline -sm" /></p>
         </div>        
+        <Button className="-primary-outline -lg -block" />
       </div>
     );
   }
