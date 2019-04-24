@@ -6,7 +6,8 @@ export default class App extends React.Component {
   render() {
     return (
       <Jumbotron className="-fluid text-xs-center"
-      style={{ backgroundImage: 'url(img/debug_1.jpeg)', color: 'white' }}>
+      style={{ backgroundImage: 'url(img/debug_1.jpeg)', color: 'white' }}
+      containerFluid={true}>
       
         <h1>Building React User Interfaces</h1>
         <p>with bootstrap and sass</p>
